@@ -1,0 +1,101 @@
+body{
+    font-family: 'Kumbh Sans',
+    sans-serif;
+    background-color: hsl(185, 75%, 39%);
+    background-image: url('../image/bg-pattern-top.svg'),
+    url('../images/bg-pattern-bottom.svg');
+    background-position: center 45vh, center;
+    font-size: 18px;
+    color: hsl(229, 23%, 23%);
+    padding: 0;
+    margin: 0;
+}
+
+p{
+    color: hsl(0, 0%, 59%);
+    font-weight: lighter;
+}
+
+hr{
+     background-color: #ffffff;
+     border-color: rgb(201, 201, 201);
+     border-top-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.age{
+    color: hsl(0, 0%, 82%);
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   
+}
+
+.box{
+    background-color: #fff;
+    width: 355px;
+    border-radius: 13px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 30%);
+    text-align: center;
+}
+
+.card-image{
+    width: 100%;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+}
+
+.profile{
+    border-radius: 50%;
+    margin-top: -50px;
+    border: 7px solid whitesmoke;
+}
+
+
+/* bagian bawah */
+
+.footer{
+    margin-bottom: 40px;
+}
+
+.statFontsize{
+    font-weight: bold;
+}
+
+.col-1{
+    position: relative;
+    display: inline-block;
+    right: 50px;
+    font-weight: lighter;
+}
+
+.col-2{
+    position: relative;
+    display: inline-block;
+    font-weight: lighter;
+}
+
+.col-3{
+   position: relative;
+   display: inline-block;
+   left: 50px;
+   font-weight: lighter;
+}
+
+.statItem{
+    color: hsl(0, 0%, 59%);
+    margin: 10px auto 0 auto;
+}
+
+.attribution{
+    text-align: center;
+}
